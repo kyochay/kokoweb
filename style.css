@@ -1,0 +1,164 @@
+.qlok{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+table{
+    margin-left: 100px;
+    width: 100px;
+}
+.teks{
+    color: white;
+    background-color: red;
+    margin: 50px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+.responsive-btn {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 67px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: grid;
+}
+
+
+.responsive-btn:hover {
+    background-color: #0056b3;
+}
+
+
+@media (max-width: 768px) {
+    .responsive-btn {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .responsive-btn {
+        padding: 15px 30px;
+        font-size: 12px;
+    }
+}
+
+.video1{
+    
+    width: 300px;
+    border-radius: 20px;
+
+}
+.qlok {
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    flex-wrap: wrap; /* Allow elements to wrap in smaller screens */
+}
+
+table {
+    margin-left: 100px;
+    width: 100%;
+    max-width: 300px; /* Ensure the table doesn't stretch too wide */
+}
+
+.teks {
+    color: white;
+    background-color: red;
+    margin: 50px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.responsive-btn {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 67px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: grid;
+    width: 200px; /* Set a fixed width for better alignment */
+    margin: 0 auto; /* Center the button */
+}
+
+.responsive-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .qlok {
+        margin: 20px; /* Adjust margins for smaller screens */
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center the items */
+    }
+    .teks {
+        width: 90%; /* Make the text box more flexible */
+    }
+    table {
+        margin-left: 0; /* Remove left margin */
+        width: 100%; /* Make the table full-width */
+        max-width: 100%; /* Ensure it doesn't exceed the screen */
+    }
+    .responsive-btn {
+        width: 150px; /* Adjust button size for mobile */
+        font-size: 14px;
+        padding: 12px 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .qlok {
+        margin: 10px; /* Adjust margins for even smaller screens */
+    }
+    .teks {
+        height: 50px; /* Make the text box smaller */
+        font-size: 14px; /* Adjust text size */
+    }
+    table {
+        width: 100%; /* Ensure table fits the screen */
+    }
+    .responsive-btn {
+        width: 130px; /* Adjust button size further for smaller devices */
+        font-size: 12px;
+        padding: 15px 30px;
+    }
+}
+
+/* Video Styling */
+.video1 {
+    width: 100%; /* Make the video width responsive */
+    max-width: 300px; /* Limit maximum width */
+    border-radius: 20px;
+}
+
+.nama{
+        color: white;
+        background-color: red;
+        margin: 4px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+        
+}
